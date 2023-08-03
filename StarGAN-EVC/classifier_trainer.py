@@ -65,3 +65,5 @@ def train_model(model, optimiser, train_data_loader, val_data_loader, loss_fn,
                 x_real = x.to(device=device, dtype=torch.float)
 
 
+if __name__ =='__main__':
+    parser
